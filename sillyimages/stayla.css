@@ -1,0 +1,91 @@
+                .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                float: center;
+            }
+            
+            imgs {
+                width: 200;
+                height: 200;
+                margin: 10px;
+            }
+            
+            .img01,
+            .img02,
+            .img03,
+            .img04,
+            .img05,
+            .img06,
+            .img07,
+            .img08,
+            .img09,
+            .img10,
+            .img11,
+            .img12,
+            .img13,
+            .img14,
+            .img15 {
+                transition: all 5s;
+                width: 200px;
+                height: 200px;
+            }
+            
+            .img01:hover {
+                transform: rotate(20000deg) scale(3);
+            }
+            
+            .img02:hover {
+                transform: rotate(20000deg) scale(3) skew(10deg, 40deg);
+            }
+            
+            .img03:hover {
+                transform: rotate(10000deg) scale(3) skew(-50deg, -30deg);
+            }
+            
+            .img04:hover {
+                transform: rotate(10000deg) scale(2) skew(-100deg, 10deg);
+            }
+            
+            .img05:hover {
+                transform: rotate(10000deg) scale(3) skew(-50deg, -30deg);
+            }
+            
+            .img06:hover {
+                transform: rotate(180deg) scale(3);
+            }
+            
+            .img07:hover {
+                transform: rotate(30000deg) scale(3) skew(-150deg, -150deg);
+            }
+            
+            .img08:hover {
+                transform: rotate(10000deg) scale(3) skew(-50deg, -30deg);
+            }
+            
+            .img09:hover {
+                transform: rotate(10000deg) scale(3) skew(-50deg, -30deg);
+            }
+            
+            .img10:hover {
+                transform: rotate(10000deg) scale(3) skew(-50deg, -30deg);
+            }
+            
+            .img11:hover {
+                transform: rotate(180deg) scale(3);
+            }
+            
+            .img12:hover {
+                transform: rotate(360deg) scale(3) skew(-50deg, -30deg);
+            }
+            
+            .img13:hover {
+                transform: rotate(10000deg) scale(3) skew(-50deg, -30deg);
+            }
+            
+            .img14:hover {
+                transform: rotate(10000deg) scale(3) skew(-50deg, -30deg);
+            }
+            
+            .img15:hover {
+                transform: rotate(10000deg) scale(3) skew(-50deg, -30deg);
