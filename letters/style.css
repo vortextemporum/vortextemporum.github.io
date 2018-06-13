@@ -2,10 +2,9 @@ html {
     background: linear-gradient(rgb(241, 9, 241), rgb(238, 147, 11));
 }
 
-body {}
-
 input {
-    box-shadow: 5px 5px 3px blue, 10px 10px 3px red, 15px 15px 3px green;
+    box-shadow: 5px 5px 4px blue, 10px 10px 4px red, 15px 15px 4px green;
+    animation: spin infinite 20s linear;
 }
 
 .header {
@@ -13,6 +12,7 @@ input {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    transform: scale(0.8);
 }
 
 .word {
@@ -22,4 +22,13 @@ input {
 
 table {
     margin: 15px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
